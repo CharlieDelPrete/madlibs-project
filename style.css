@@ -1,0 +1,50 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background:url('images/background.png') center/cover no-repeat;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div-container-fluid.top{
+display: flex;
+justify-content:center;
+}
+
+.title{
+    text-align: center;
+    font-family:'creepster';
+    color: rgb(214, 235, 25);
+    font-size: 50px;
+}
+
+div.container-fluid.top{
+ background: linear-gradient(to bottom, rgba(94, 86, 53, 1), transparent)
+}
+
+div#madLibOutput{
+    color: #ffff;
+    text-align: center;
+    border: solid;
+    text-wrap:20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: black;
+    opacity: 50%;
+    max-width: 50%;
+    padding: 10px;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div.container{
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    font-family: creepster;
+}
